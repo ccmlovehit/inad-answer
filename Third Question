@@ -1,0 +1,34 @@
+def StrToNum(value):
+    rtn=0;
+    powIndex=0;
+    value=value.upper()
+    length=len(value)
+    for i in range(length):
+        tmpInt=ord(value[-1-i])
+        tmpInt=tmpInt-64
+        rtn+=pow(26,powIndex)*tmpInt;
+        powIndex+=1
+    return rtn
+print StrToNum('AaB')
+
+def NumToStr(value):
+    result=[]
+    while (value/26!=0 or value %26!=0):
+        result.append(value%26)
+        value/=26
+    for i in range(len(result)-1):
+        if result[i]==0:
+            result[i+1]-=1
+            result[i]=26
+    if result[-1]==0:
+        print result
+        result.pop(-1)
+        
+    for i in range(len(result)):
+        result[i]=chr(result[i]+64)
+    result.reverse()
+    return ''.join(result)
+    
+print NumToStr(45)
+    
+
