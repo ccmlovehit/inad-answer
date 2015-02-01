@@ -1,0 +1,22 @@
+Web 开发框架是节省时间和减轻工作压力的比较好的解决方案，如果你计划开始 Web 开发，那么这些框架无疑是非常好的工具。
+1.  jQuery
+jQuery 是一个快速而且简洁的 JavaScript 库，它使得以下几方面的工作更加简单：遍历操作 HTML 文档、事件处理、动画、快速 Web 开发中的 Ajax 交互操作等。jQuery 的设计旨在改变你编写 JavaScript 的方式。
+2.  jQuery Mobile
+这是一个可跨所有流行移动设备平台的 UI（用户界面）系统，基于非常可靠的 jQuery 和 jQuery UI。它的代码得到了增强，且更加轻量，可以进行灵活、易于主题化的设计。
+3.  Yii Framework
+Yii 是一个高性能的、开发 Web 2.0应用程序最好的 PHP 框架。
+4.  52framework
+该框架支持 HTML5 和 CSS3，支持目前所有的浏览器。该框架充分利用了 HTML5 所有的优势。在网页设计师的世界中，CSS3 是非常酷的东西，使用 CSS3 可以节省网页设计和布局的时间。在开发中可以使用 CSS3 所有的特性，如文本/框阴影、圆角和动画等。
+5.  YAML
+YAML （全称 Yet Another Multicolumn Layout，另一个多列布局）是一个用于创建现代、灵活的浮动层的 HTML(XHTML)/CSS 框架。
+6.  Zoop Framework
+Zoop 自从 2001 年发布以来，已在大量不同环境中使用。它基于坚实的 MVC 原理，包括表现层、逻辑层和数据层。它具有高效、模块化和可扩展的特性，在轻量级和功能强大之间达到了惊人的平衡。
+7.  Symfony
+Symfony 是一个开源的 PHP Web 应用程序开发框架。它最初是 Sensio 实验室用来为自己的客户开发网站的，在 2005 年被该机构基于 MIT 许可开源。今天，它已经成为了 PHP 开发中领先的框架之一。
+8.  CakePHP
+CakePHP 是一个 PHP 快速开发框架，提供了一个用于开发、维护和部署应用程序的可扩展结构。CakePHP 在配置范例中采用了普遍知道的设计模式，如 MVC 和 ORM，可以降低开发成本，帮助开发者减少代码的编写量。
+9.  MooTools
+MooTools 是一个简洁、模块化、面向对象的 JavaScript 框架。它能够帮助你更快，更简单地编写可扩展和兼容性强的 JavaScript 代码。Mootools 跟 prototypejs 相类似，语法几乎一样。但它提供的功能要比 prototypejs 多，而且更强大。比如增加了动画特效、拖放操作等等。
+10. web2py
+web2py 是一个免费、开源的全栈框架，可用于快速开发可扩展、安全、轻便、数据库驱动、基于 Web 的应用程序。该框架使用 Python 编写。
+
