@@ -1,23 +1,37 @@
-import sys   
-  
-def search2(a,m):  
-    low = 0   
-    high = len(a) - 1   
-    while(low <= high):  
-        mid = (low + high)/2  
-        midval = a[mid]  
-      
-        if midval < m:  
-            low = mid + 1   
-        elif midval > m:  
-            high = mid - 1   
-        else:  
-            print mid   
-            return mid   
-    print -1  
-    return -1  
-  
-if __name__ == "__main__":  
-    a = [1,2,3,4,5,6,7]  
-    m = 3 
-    search2(a,m)  
+from random import Random
+
+def quick_sort(arr):
+    if len(arr) > 1:
+        qsort(arr, 0, len(arr) - 1)
+
+def qsort(arr, start, end):
+    base = arr[start]
+    pl = start
+    pr = end
+    while pl < pr:
+        while pl < pr and arr[pr] >= base:
+            pr -= 1
+        if pl == pr:
+            break
+        else:
+            arr[pl], arr[pr] = arr[pr], arr[pl]
+
+        while pl < pr and arr[pl] <= base:
+            pl += 1
+        if pl == pr:
+            break
+        else:
+            arr[pl], arr[pr] = arr[pr], arr[pl]
+    if pl - 1 > start:
+        qsort(arr, start, pl - 1)
+    if pr + 1 < end:
+        qsort(arr, pr + 1, end)
+
+r = Random()
+a = []
+for i in range(20):
+    a.append(r.randint(0, 100))
+
+print a
+quick_sort(a)
+print a
