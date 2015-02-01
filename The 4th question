@@ -1,0 +1,4 @@
+import sys
+fp=open('out.txt','w')
+old=sys.stdout
+sys.stdout=fp
